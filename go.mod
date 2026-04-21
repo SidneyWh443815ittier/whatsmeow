@@ -24,3 +24,4 @@ require (
 
 // Personal fork — tracking upstream tulir/whatsmeow.
 // Bumped golang.org/x/sys to pick up latest security patches.
+// TODO: explore reducing zerolog dependency in favour of slog (stdlib, go1.21+).
