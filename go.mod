@@ -25,3 +25,5 @@ require (
 // Personal fork — tracking upstream tulir/whatsmeow.
 // Bumped golang.org/x/sys to pick up latest security patches.
 // TODO: explore reducing zerolog dependency in favour of slog (stdlib, go1.21+).
+// NOTE: gorilla/websocket is the only websocket impl tested; nhooyr/websocket
+//       might be worth evaluating for its context-aware API and active maintenance.
