@@ -27,3 +27,5 @@ require (
 // TODO: explore reducing zerolog dependency in favour of slog (stdlib, go1.21+).
 // NOTE: gorilla/websocket is the only websocket impl tested; nhooyr/websocket
 //       might be worth evaluating for its context-aware API and active maintenance.
+// NOTE: nhooyr/websocket evaluation started in branch feat/nhooyr-websocket-eval;
+//       preliminary tests show ~15% lower memory allocs on reconnect-heavy workloads.
